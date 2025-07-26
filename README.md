@@ -15,24 +15,3 @@ This document explains the structure of algorithms in programming at a B1 Englis
 | **Data Structures in Algorithms**<br>The way data is stored changes how the algorithm works:<br>- **Lists**: Good for checking items one by one.<br>- **Trees**: Good for fast searches or organized data.<br>- **Graphs**: Used for networks, like finding the shortest path.<br>- **Tables**: Fast for looking up data.<br>For example, an algorithm to find the shortest path (like Dijkstra’s) uses a priority queue to pick the next step, shaping how it works. | **Estructuras de datos en algoritmos**<br>La forma en que se guardan los datos cambia cómo funciona el algoritmo:<br>- **Listas**: Buenas para revisar elementos uno por uno.<br>- **Árboles**: Buenos para búsquedas rápidas o datos organizados.<br>- **Grafos**: Usados para redes, como encontrar el camino más corto.<br>- **Tablas**: Rápidas para buscar datos.<br>Por ejemplo, un algoritmo para encontrar el camino más corto (como el de Dijkstra) usa una cola de prioridad para elegir el siguiente paso, lo que define cómo funciona. |
 | **Real-World Example: Sorting a List**<br>**Bubble Sort**:<br>- **Input**: Unsorted list.<br>- **Structure**:<br>  - Use two loops: one to go through the list, another to compare pairs.<br>  - Swap numbers if they’re in the wrong order.<br>- **Output**: Sorted list.<br>- **Speed**: Slow for big lists.<br><br>**Merge Sort**:<br>- **Structure**: Split the list, sort each part, and combine them.<br>- **Speed**: Faster for big lists but uses more memory.<br><br>The structure (loops vs. splitting) changes how fast it works. | **Ejemplo del mundo real: Ordenar una lista**<br>**Bubble Sort**:<br>- **Entrada**: Lista desordenada.<br>- **Estructura**:<br>  - Usar dos bucles: uno para recorrer la lista, otro para comparar pares.<br>  - Cambiar números si están en el orden incorrecto.<br>- **Salida**: Lista ordenada.<br>- **Velocidad**: Lento para listas grandes.<br><br>**Merge Sort**:<br>- **Estructura**: Dividir la lista, ordenar cada parte y combinarlas.<br>- **Velocidad**: Más rápido para listas grandes, pero usa más memoria.<br><br>La estructura (bucles vs. división) cambia qué tan rápido funciona. |
 | **Conclusion**<br>An algorithm’s structure is the plan for how it takes data, processes it, and gives results. It uses steps, decisions, loops, and data structures to work well. By understanding the problem, picking the right method, and making it efficient, you can create good algorithms. Each algorithm’s structure fits the problem it solves. | **Conclusión**<br>La estructura de un algoritmo es el plan de cómo toma datos, los procesa y da resultados. Usa pasos, decisiones, bucles y estructuras de datos para funcionar bien. Al entender el problema, elegir el método correcto y hacerlo eficiente, puedes crear buenos algoritmos. Cada estructura se adapta al problema que resuelve. |
-
-## How to Convert to PDF
-
-To convert this Markdown file to a PDF:
-1. **Use an Online Converter**:
-   - Copy the content into a tool like [Dillinger](https://dillinger.io) or [Typora](https://typora.io).
-   - Export as PDF (e.g., File > Export > PDF).
-2. **Use Pandoc**:
-   - Install Pandoc (https://pandoc.org).
-   - Save the content as `README.md`.
-   - Run: `pandoc README.md -o output.pdf --pdf-engine=pdflatex`.
-3. **Use a Word Processor**:
-   - Copy the content into Microsoft Word or Google Docs.
-   - Format with two columns if desired (Layout > Columns > Two).
-   - Save as PDF (File > Save As > PDF).
-4. **Use VS Code**:
-   - Install the Markdown Preview Enhanced extension.
-   - Open `README.md` in VS Code.
-   - Use the extension to export as PDF.
-
-If you need help with conversion or want additional content (e.g., a complexity chart), let me know!
