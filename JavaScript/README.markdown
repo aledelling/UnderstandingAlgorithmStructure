@@ -11,24 +11,3 @@ This document explains the structure of algorithms in JavaScript at a B1 English
 | **How JavaScript Supports Algorithm Structures**<br>- **Functions**: Organize algorithms in reusable functions or arrow functions.<br>- **Control Structures**: Use `if`, `for`, `while`, or recursion for logic.<br>- **Data Structures**: Use arrays, objects, `Map`, or `Set`.<br>- **Error Handling**: Use `try-catch` for errors like `undefined` inputs.<br>- **Dynamic Typing**: No need to declare types, making code flexible.<br>Example: A sorting algorithm uses a `for` loop and array for efficient processing. | **Cómo JavaScript soporta las estructuras de algoritmos**<br>- **Funciones**: Organizar algoritmos en funciones reutilizables o funciones flecha.<br>- **Estructuras de control**: Usar `if`, `for`, `while` o recursión para la lógica.<br>- **Estructuras de datos**: Usar arrays, objetos, `Map` o `Set`.<br>- **Manejo de errores**: Usar `try-catch` para errores como entradas `undefined`.<br>- **Tipado dinámico**: No es necesario declarar tipos, lo que hace el código flexible.<br>Ejemplo: Un algoritmo de ordenamiento usa un bucle `for` y un array para procesar eficientemente. |
 | **Important Points**<br>- **Clear**: Write simple code with comments.<br>- **Fast**: Choose efficient data structures and loops.<br>- **Modular**: Use functions for reuse.<br>- **Strong**: Check for errors like empty arrays.<br>- **Scalable**: Design for big data, like using arrays for dynamic lists. | **Puntos importantes**<br>- **Claro**: Escribir código simple con comentarios.<br>- **Rápido**: Elegir estructuras de datos y bucles eficientes.<br>- **Modular**: Usar funciones para reutilizar.<br>- **Fuerte**: Verificar errores como arrays vacíos.<br>- **Escalable**: Diseñar para datos grandes, como usar arrays para listas dinámicas. |
 | **Conclusion**<br>An algorithm’s structure in JavaScript is a plan for solving a problem using functions, control structures, and data structures. By using JavaScript’s features like loops, arrays, and error handling, you can create clear and fast algorithms. Each algorithm fits the problem it solves, like sorting or searching. | **Conclusión**<br>La estructura de un algoritmo en JavaScript es un plan para resolver un problema usando funciones, estructuras de control y estructuras de datos. Al usar características de JavaScript como bucles, arrays y manejo de errores, puedes crear algoritmos claros y rápidos. Cada algoritmo se adapta al problema que resuelve, como ordenar o buscar. |
-
-## How to Convert to PDF
-
-To convert this Markdown file to a PDF:
-1. **Use an Online Converter**:
-   - Copy the content into a tool like [Dillinger](https://dillinger.io) or [Typora](https://typora.io).
-   - Export as PDF (e.g., File > Export > PDF).
-2. **Use Pandoc**:
-   - Install Pandoc (https://pandoc.org).
-   - Save the content as `README.md`.
-   - Run: `pandoc README.md -o output.pdf --pdf-engine=pdflatex`.
-3. **Use a Word Processor**:
-   - Copy the content into Microsoft Word or Google Docs.
-   - Format with two columns if desired (Layout > Columns > Two).
-   - Save as PDF (File > Save As > PDF).
-4. **Use VS Code**:
-   - Install the Markdown Preview Enhanced extension.
-   - Open `README.md` in VS Code.
-   - Use the extension to export as PDF.
-
-If you need help with conversion or want additional content (e.g., a JavaScript algorithm example or a complexity chart), let me know!
