@@ -12,23 +12,4 @@ This document explains the structure of algorithms in the Model-View-Controller 
 | **Important Points**<br>- **Clear**: Write simple code with comments in Model, View, or Controller.<br>- **Fast**: Choose efficient data structures and algorithms in the Model.<br>- **Modular**: Use functions or classes for reuse across MVC components.<br>- **Strong**: Check for errors like invalid inputs in the Controller.<br>- **Scalable**: Design for big data, like using lists for dynamic data in the Model. | **Puntos importantes**<br>- **Claro**: Escribir código simple con comentarios en Modelo, Vista o Controlador.<br>- **Rápido**: Elegir estructuras de datos y algoritmos eficientes en el Modelo.<br>- **Modular**: Usar funciones o clases para reutilizar en componentes MVC.<br>- **Fuerte**: Verificar errores como entradas inválidas en el Controlador.<br>- **Escalable**: Diseñar para datos grandes, como usar listas para datos dinámicos en el Modelo. |
 | **Conclusion**<br>An algorithm’s structure in MVC is a plan for solving a problem within the Model, View, or Controller. By using functions, control structures, and data structures, you can create clear and fast algorithms. Each algorithm fits its role in MVC, like processing data in the Model or handling inputs in the Controller. | **Conclusión**<br>La estructura de un algoritmo en MVC es un plan para resolver un problema dentro del Modelo, Vista o Controlador. Al usar funciones, estructuras de control y estructuras de datos, puedes crear algoritmos claros y rápidos. Cada algoritmo se adapta a su rol en MVC, como procesar datos en el Modelo o manejar entradas en el Controlador. |
 
-## How to Convert to PDF
-
-To convert this Markdown file to a PDF:
-1. **Use an Online Converter**:
-   - Copy the content into a tool like [Dillinger](https://dillinger.io) or [Typora](https://typora.io).
-   - Export as PDF (e.g., File > Export > PDF).
-2. **Use Pandoc**:
-   - Install Pandoc (https://pandoc.org).
-   - Save the content as `README.md`.
-   - Run: `pandoc README.md -o output.pdf --pdf-engine=pdflatex`.
-3. **Use a Word Processor**:
-   - Copy the content into Microsoft Word or Google Docs.
-   - Format with two columns if desired (Layout > Columns > Two).
-   - Save as PDF (File > Save As > PDF).
-4. **Use VS Code**:
-   - Install the Markdown Preview Enhanced extension.
-   - Open `README.md` in VS Code.
-   - Use the extension to export as PDF.
-
 If you need help with conversion or want additional content (e.g., an MVC algorithm example in a specific language like Python or JavaScript), let me know!
