@@ -11,24 +11,3 @@ This document explains the Merge Sort algorithm at a B1 English level, with Span
 | **Key Characteristics**<br>- **Efficient**: Works well for big lists.<br>- **Stable**: Keeps the order of equal elements.<br>- **Extra Space**: Needs extra memory to hold split lists.<br>- **Time**: Fast, works in O(n log n) time, where n is the list size.<br>- **Use**: Good for large data or when stability is needed.<br>- **Control Structures**: Uses recursion and loops for merging. | **Características clave**<br>- **Eficiente**: Funciona bien para listas grandes.<br>- **Estable**: Mantiene el orden de elementos iguales.<br>- **Espacio extra**: Necesita memoria adicional para las listas divididas.<br>- **Tiempo**: Rápido, funciona en tiempo O(n log n), donde n es el tamaño de la lista.<br>- **Uso**: Bueno para datos grandes o cuando se necesita estabilidad.<br>- **Estructuras de control**: Usa recursión y bucles para combinar. |
 | **Why is it Called Merge Sort?**<br>It’s called Merge Sort because it focuses on merging smaller sorted lists into a bigger sorted list. The “merge” step is the key part of the algorithm. | **¿Por qué se llama Merge Sort?**<br>Se llama Merge Sort porque se centra en combinar listas pequeñas ordenadas en una lista grande ordenada. El paso de “combinar” es la parte clave del algoritmo. |
 | **Conclusion**<br>Merge Sort is an efficient way to sort a list using a divide-and-conquer method. It’s great for big data and stable sorting but needs extra space. It helps learn about recursion and algorithm design. | **Conclusión**<br>Merge Sort es una forma eficiente de ordenar una lista usando un método de dividir y conquistar. Es ideal para datos grandes y ordenamiento estable, pero necesita espacio extra. Ayuda a aprender sobre recursión y diseño de algoritmos. |
-
-## How to Convert to PDF
-
-To convert this Markdown file to a PDF:
-1. **Use an Online Converter**:
-   - Copy the content into a tool like [Dillinger](https://dillinger.io) or [Typora](https://typora.io).
-   - Export as PDF (e.g., File > Export > PDF).
-2. **Use Pandoc**:
-   - Install Pandoc (https://pandoc.org).
-   - Save the content as `README.md`.
-   - Run: `pandoc README.md -o output.pdf --pdf-engine=pdflatex`.
-3. **Use a Word Processor**:
-   - Copy the content into Microsoft Word or Google Docs.
-   - Format with two columns if desired (Layout > Columns > Two).
-   - Save as PDF (File > Save As > PDF).
-4. **Use VS Code**:
-   - Install the Markdown Preview Enhanced extension.
-   - Open `README.md` in VS Code.
-   - Use the extension to export as PDF.
-
-If you need help with conversion or want additional content (e.g., code examples), let me know!
