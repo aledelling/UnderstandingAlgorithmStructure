@@ -12,23 +12,4 @@ This document explains the Bubble Sort algorithm at a B1 English level, with Spa
 | **Why is it Called Bubble Sort?**<br>It’s called Bubble Sort because bigger elements “bubble up” to the end of the list in each pass, like bubbles rising in water. Smaller elements move to the start slowly. | **¿Por qué se llama Bubble Sort?**<br>Se llama Bubble Sort porque los elementos más grandes “suben como burbujas” al final de la lista en cada pasada, como burbujas en el agua. Los elementos más pequeños se mueven al inicio lentamente. |
 | **Conclusion**<br>Bubble Sort is a simple way to sort a list, but it’s not fast for big data. It helps learn about algorithms because it uses loops, decisions, and lists. It’s good for small tasks or teaching. | **Conclusión**<br>Bubble Sort es una forma simple de ordenar una lista, pero no es rápido para datos grandes. Ayuda a aprender sobre algoritmos porque usa bucles, decisiones y listas. Es bueno para tareas pequeñas o enseñanza. |
 
-## How to Convert to PDF
-
-To convert this Markdown file to a PDF:
-1. **Use an Online Converter**:
-   - Copy the content into a tool like [Dillinger](https://dillinger.io) or [Typora](https://typora.io).
-   - Export as PDF (e.g., File > Export > PDF).
-2. **Use Pandoc**:
-   - Install Pandoc (https://pandoc.org).
-   - Save the content as `README.md`.
-   - Run: `pandoc README.md -o output.pdf --pdf-engine=pdflatex`.
-3. **Use a Word Processor**:
-   - Copy the content into Microsoft Word or Google Docs.
-   - Format with two columns if desired (Layout > Columns > Two).
-   - Save as PDF (File > Save As > PDF).
-4. **Use VS Code**:
-   - Install the Markdown Preview Enhanced extension.
-   - Open `README.md` in VS Code.
-   - Use the extension to export as PDF.
-
 If you need help with conversion or want additional content (e.g., code examples), let me know!
