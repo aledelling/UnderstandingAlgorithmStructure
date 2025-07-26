@@ -1,0 +1,34 @@
+# Understanding Bubble Sort Algorithm
+
+This document explains the Bubble Sort algorithm at a B1 English level, with Spanish translations in a two-column format for clarity.
+
+## Bubble Sort Algorithm
+
+| **English (B1)** | **Spanish Translation** |
+|------------------|-------------------------|
+| **What is Bubble Sort?**<br>Bubble Sort is a simple algorithm that sorts a list by comparing two elements next to each other and swapping them if they are in the wrong order. It repeats this until the list is sorted.<br>- **Input**: A list of numbers that is not sorted.<br>- **Processing**: Compare and swap elements using loops.<br>- **Output**: A sorted list of numbers.<br>- **Data Structure**: Uses a list or array.<br>- **Error Handling**: Check if the list is empty or invalid.<br>- **Termination**: Stops when no more swaps are needed.<br>Bubble Sort is easy to understand but slow for big lists. | **¿Qué es Bubble Sort?**<br>Bubble Sort es un algoritmo simple que ordena una lista comparando dos elementos cercanos y cambiándolos si están en el orden incorrecto. Repite esto hasta que la lista está ordenada.<br>- **Entrada**: Una lista de números desordenada.<br>- **Procesamiento**: Comparar y cambiar elementos usando bucles.<br>- **Salida**: Una lista de números ordenada.<br>- **Estructura de datos**: Usa una lista o array.<br>- **Manejo de errores**: Verificar si la lista está vacía o es inválida.<br>- **Terminación**: Para cuando no se necesitan más cambios.<br>Bubble Sort es fácil de entender pero lento para listas grandes. |
+| **How Bubble Sort Works**<br>1. **Start**: Take the first two elements in the list.<br>2. **Compare**: If the first is bigger than the second, swap them.<br>3. **Move**: Go to the next pair and repeat.<br>4. **Repeat**: Do this for the whole list many times.<br>5. **Finish**: Stop when the list is sorted (no swaps needed).<br>Example: For `[64, 34, 25]`:<br>- First pass: Compare 64 and 34, swap → `[34, 64, 25]`. Compare 64 and 25, swap → `[34, 25, 64]`.<br>- Second pass: Compare 34 and 25, swap → `[25, 34, 64]`.<br>- Done: `[25, 34, 64]` is sorted. | **Cómo funciona Bubble Sort**<br>1. **Inicio**: Tomar los primeros dos elementos de la lista.<br>2. **Comparar**: Si el primero es mayor que el segundo, cambiarlos.<br>3. **Avanzar**: Pasar al siguiente par y repetir.<br>4. **Repetir**: Hacer esto para toda la lista varias veces.<br>5. **Finalizar**: Parar cuando la lista está ordenada (no se necesitan cambios).<br>Ejemplo: Para `[64, 34, 25]`:<br>- Primera pasada: Comparar 64 y 34, cambiar → `[34, 64, 25]`. Comparar 64 y 25, cambiar → `[34, 25, 64]`.<br>- Segunda pasada: Comparar 34 y 25, cambiar → `[25, 34, 64]`.<br>- Listo: `[25, 34, 64]` está ordenado. |
+| **Key Characteristics**<br>- **Simple**: Easy to write and understand.<br>- **Slow**: Takes a long time for big lists because it compares many times.<br>- **In-Place**: Does not need extra space, only swaps elements.<br>- **Time**: Slow, works in O(n²) time, where n is the list size.<br>- **Use**: Good for learning or small lists, not for big data.<br>- **Control Structures**: Uses loops (`for`, `while`) and decisions (`if`). | **Características clave**<br>- **Simple**: Fácil de escribir y entender.<br>- **Lento**: Tarda mucho en listas grandes porque compara muchas veces.<br>- **In situ**: No necesita espacio extra, solo cambia elementos.<br>- **Tiempo**: Lento, funciona en tiempo O(n²), donde n es el tamaño de la lista.<br>- **Uso**: Bueno para aprender o listas pequeñas, no para datos grandes.<br>- **Estructuras de control**: Usa bucles (`for`, `while`) y decisiones (`if`). |
+| **Why is it Called Bubble Sort?**<br>It’s called Bubble Sort because bigger elements “bubble up” to the end of the list in each pass, like bubbles rising in water. Smaller elements move to the start slowly. | **¿Por qué se llama Bubble Sort?**<br>Se llama Bubble Sort porque los elementos más grandes “suben como burbujas” al final de la lista en cada pasada, como burbujas en el agua. Los elementos más pequeños se mueven al inicio lentamente. |
+| **Conclusion**<br>Bubble Sort is a simple way to sort a list, but it’s not fast for big data. It helps learn about algorithms because it uses loops, decisions, and lists. It’s good for small tasks or teaching. | **Conclusión**<br>Bubble Sort es una forma simple de ordenar una lista, pero no es rápido para datos grandes. Ayuda a aprender sobre algoritmos porque usa bucles, decisiones y listas. Es bueno para tareas pequeñas o enseñanza. |
+
+## How to Convert to PDF
+
+To convert this Markdown file to a PDF:
+1. **Use an Online Converter**:
+   - Copy the content into a tool like [Dillinger](https://dillinger.io) or [Typora](https://typora.io).
+   - Export as PDF (e.g., File > Export > PDF).
+2. **Use Pandoc**:
+   - Install Pandoc (https://pandoc.org).
+   - Save the content as `README.md`.
+   - Run: `pandoc README.md -o output.pdf --pdf-engine=pdflatex`.
+3. **Use a Word Processor**:
+   - Copy the content into Microsoft Word or Google Docs.
+   - Format with two columns if desired (Layout > Columns > Two).
+   - Save as PDF (File > Save As > PDF).
+4. **Use VS Code**:
+   - Install the Markdown Preview Enhanced extension.
+   - Open `README.md` in VS Code.
+   - Use the extension to export as PDF.
+
+If you need help with conversion or want additional content (e.g., code examples), let me know!
