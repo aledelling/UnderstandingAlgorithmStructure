@@ -13,23 +13,6 @@ This document explains the structure of algorithms in Java at a B1 English level
 | **Important Points**<br>- **Clear**: Write simple code with comments.<br>- **Fast**: Choose efficient data structures and loops.<br>- **Modular**: Use methods and classes for reuse.<br>- **Strong**: Check for errors like empty arrays.<br>- **Scalable**: Design for big data, like using `ArrayList` for dynamic lists. | **Puntos importantes**<br>- **Claro**: Escribir código simple con comentarios.<br>- **Rápido**: Elegir estructuras de datos y bucles eficientes.<br>- **Modular**: Usar métodos y clases para reutilizar.<br>- **Fuerte**: Verificar errores como arrays vacíos.<br>- **Escalable**: Diseñar para datos grandes, como usar `ArrayList` para listas dinámicas. |
 | **Conclusion**<br>An algorithm’s structure in Java is a plan for solving a problem using classes, methods, and control structures. By using Java’s features like loops, arrays, and error handling, you can create clear and fast algorithms. Each algorithm fits the problem it solves, like Binary Search for finding numbers. | **Conclusión**<br>La estructura de un algoritmo en Java es un plan para resolver un problema usando clases, métodos y estructuras de control. Al usar características de Java como bucles, arrays y manejo de errores, puedes crear algoritmos claros y rápidos. Cada algoritmo se adapta al problema que resuelve, como la búsqueda binaria para encontrar números. |
 
-## How to Convert to PDF
 
-To convert this Markdown file to a PDF:
-1. **Use an Online Converter**:
-   - Copy the content into a tool like [Dillinger](https://dillinger.io) or [Typora](https://typora.io).
-   - Export as PDF (e.g., File > Export > PDF).
-2. **Use Pandoc**:
-   - Install Pandoc (https://pandoc.org).
-   - Save the content as `README.md`.
-   - Run: `pandoc README.md -o output.pdf --pdf-engine=pdflatex`.
-3. **Use a Word Processor**:
-   - Copy the content into Microsoft Word or Google Docs.
-   - Format with two columns if desired (Layout > Columns > Two).
-   - Save as PDF (File > Save As > PDF).
-4. **Use VS Code**:
-   - Install the Markdown Preview Enhanced extension.
-   - Open `README.md` in VS Code.
-   - Use the extension to export as PDF.
 
 If you need help with conversion or want additional content (e.g., more Java examples), let me know!
